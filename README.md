@@ -26,7 +26,7 @@ Based on temperature we can feel confident in our investment to open a surfshop 
 #### Additional Analysis
 To perform this analysis I created a function - to make the process efficient and highly reusable. With a simple change of variables we can use the structure of the function to extract the precipitation data - which would be important to look at - who wants to eat icecream or surf in the rain? Another way of looking at this data would be to create a graph. Gather the data for each month of the year across our dataset, then plot the average temperatures and superimpose the average precipitation in each month - that could make our decision even easier. 
 
-![Figure 3: Temperature Extract Function](https://github.com/bbinvt/surfs_up/blob/afc729eb39b77af46d5106335acdff0f6472f5b3/temp_extract_func.png)
+![Figure 3: Temperature Extract Function](https://github.com/bbinvt/surfs_up/blob/3bb1b93d7decbf18b9e11758dc767f364a7a967f/temp_extract_function.png)
 
 ### Extending the Analysis
 I extended the analysis to pull precipitation data for each month across the seven year period, created a new dataframe with the observed temperature values and I used this dataframe to create a box plot - an easy way to view the Temperature Distributions for each month over the seven year period. See the last section of the jupyter notebook for the code used to generate the figure below. 
